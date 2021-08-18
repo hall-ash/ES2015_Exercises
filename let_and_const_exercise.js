@@ -40,6 +40,7 @@ let variables can be declared without assigning a value, const
 variables must be assigned in the declaration statement. 
 
 4. What is hoisting?
-Hoisting moves variable and function declarations to the top of their scope
-before code execution.
+Hoisting occurs when the JS compiler "moves" variable and function declarations to the top of their scope
+before code execution. Before var variables are assigned a value, they can be accessed and are 
+given the initial value of undefined. 
 */
