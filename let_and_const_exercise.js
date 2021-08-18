@@ -20,19 +20,26 @@ const PI = 3.14;
 
 /*
 Quiz questions:  
-What is the difference between var and let?
+1. What is the difference between var and let?
 var is defined and accessible inside its function (function scope) and can be redeclared. 
 let is defined and accessible inside the curly braces it has been declared in (block scope)
-and cannot be redeclared.
+and cannot be redeclared. var variables declared globally are added as properties to the window
+object; let variables declared globally are not. var variables are hoisted and given
+an initial value of undefined. let variables are not hoisted.
 
-What is the difference between var and const?
+2. What is the difference between var and const?
 var can be reassigned and redeclared, and it has function scope.
 const cannot be reassigned or redeclared, and it has block scope.
+var variables are hoisted, and const variables are not.
+var variables can be declared but not assigned. const variables 
+must be assigned a value when they are declared.
 
-What is the difference between let and const?
+3. What is the difference between let and const?
 let can be reassigned, and const cannot be reassigned.
+let variables can be declared without assigning a value, const
+variables must be assigned in the declaration statement. 
 
-What is hoisting?
+4. What is hoisting?
 Hoisting moves variable and function declarations to the top of their scope
 before code execution.
 */
