@@ -1,6 +1,6 @@
 /* 
 Hall, Ashley
-Unit 10.6.8 Destructuring Exercise
+Unit 10.7.7 Maps and Sets Exercise
 */
 
 // 1) What does the following code return?
